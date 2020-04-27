@@ -1,3 +1,35 @@
-baseURL = "http://example.org/"
+baseURL = "https://ringorokii.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ringorokii"
+theme = "hugo-freelancer-theme"
+
+[params]
+
+    name = "ringorokii"
+    description = "text"
+
+    custom_css = ["css/ringorokii.css"]
+    
+ [params.header]
+        image = "profile.png"
+        name = "ringorokii"
+        subtitle = "subheader"
+
+   [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Works"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+
+        [params.about]
+        title = "About"
+        # The about text is splitted into a left and right column
+        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
+        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"

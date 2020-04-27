@@ -1,0 +1,45 @@
+section.success {
+    color: #ffffff;
+    background: #9b89b0;
+}
+
+.navbar{
+    background: #675c83;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: #483B63;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #9b89b0;
+}
+
+hr.star-light:after {
+    background-color: #9b89b0;
+}
+
+hr.star-primary:after {
+    color: #675c83;
+}
+
+header {
+    background: #9b89b0;
+}                                                                                                                                                                                                                                               header .container {                                                                                                    @@ -181,7 +181,7 @@ section h2 {                                                                                                                                                                                                                 section.success {                                                                                                           color: #fff;                                                                                                       -    background: #18bc9c;                                                                                               +    background: #675c83;                                                                                                }                                                                                                                                                                                                                                               section.success a,
+
+section.success {
+    background: #675c83;
+}
+
+section.success a,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    color: #675c83;
+}
